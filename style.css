@@ -1,0 +1,58 @@
+body {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-color: #7cf9d6;
+}
+.main {
+	display: flex;
+	flex-direction: column;
+	background-color: #aaf5d4;
+	max-width: 600px;
+	padding: 10px;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.heading {
+	font-weight: 900;
+	font-size: 30px;
+}
+
+input {
+	height: 20px;
+	padding: 10px;
+	font-size: 20px;
+	width: 150px;
+}
+
+.todoAddBtn {
+	height: 45px;
+	width: 100px;
+	background-color: #74a7b2;
+	border: none;
+	border-radius: 10px;
+
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.js-todo-list {
+	display: grid;
+	grid-template-columns: 200px 150px 100px;
+	column-gap: 10px;
+	row-gap: 10px;
+	align-items: center;
+	font-size: 20px;
+}
+
+.deleteBtn {
+	height: 45px;
+	width: 100px;
+	background-color: #74a7b2;
+	border: none;
+	border-radius: 10px;
+
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
